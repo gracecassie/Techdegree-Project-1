@@ -49,11 +49,9 @@ nav {
 .nav li {
   padding: 5px 10px 10px 10px;
 }
-
 .nav a {
   transition: all .5s;
 }
-
 .nav a:hover {
   color:  #ffc8ff;
 }
@@ -133,33 +131,18 @@ header .profile-image:hover {
 section {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 500px;
+  max-width: 1100px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
+
 
 section:hover {
   border-color: #4d07ff;
 }
-
-.resume-card {
-  margin: 0 30px 30px 30px;
-  padding: 20px 40px 40px;
-  max-width: 1200px;
-  text-align: left;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
-  transition: all .5s;
-}
-
-.resume-card:hover {
-  border-color:#4d07ff;
-}
-
 
 ul.skills {
   padding: 0;
