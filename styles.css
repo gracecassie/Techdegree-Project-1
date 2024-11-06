@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+nav {
   width: 100%;
   background: #6633ff;
   min-height: 30px;
@@ -31,6 +31,7 @@ a:hover {
   position: fixed;
   text-align: center;
 }
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -48,9 +49,11 @@ a:hover {
 .nav li {
   padding: 5px 10px 10px 10px;
 }
+
 .nav a {
   transition: all .5s;
 }
+
 .nav a:hover {
   color:  #ffc8ff;
 }
@@ -88,7 +91,7 @@ a:hover {
 
 .mockler-logo {
   padding: 10px;
-  width: 150;
+  width: 150px;
   height:50px;
 }
 
@@ -127,7 +130,7 @@ header .profile-image:hover {
   color: #ffc8ff;
 }
 
-.card {
+section {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -136,6 +139,10 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+}
+
+section:hover {
+  border-color: #4d07ff;
 }
 
 .resume-card {
@@ -153,9 +160,6 @@ header .profile-image:hover {
   border-color:#4d07ff;
 }
 
-.card:hover {
-  border-color: #4d07ff;
-}
 
 ul.skills {
   padding: 0;
